@@ -1,5 +1,5 @@
-# Dio--Desafio---Github---1-repositório
-Repositório do 1º desafio de projeto do bootcamp SPREAD.
+# Dio--Desafio---Git/Github---1º-repositório
+Repositório do 1º desafio de projeto da DIO.
 
 # Links Úteis
 [Sintaxe Básica Markdown](https://www.markdownguide.org/)
