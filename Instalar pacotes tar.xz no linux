@@ -1,0 +1,30 @@
+Instalar pacotes tar.xz no linux
+
+Neste artigo vamos ver como instalar pacotes tar.xz no Linux, muitos aplicativos são empacotados com tar.xz e muita gente tem tido dificuldade em fazer a instalação, então vamos ver como fazer a instalação.
+
+Instalando pacotes tar.xz em qualquer distribuição Linux
+Para começar após baixar lembre-se de onde o arquivo foi salvado após o download ter sido concluído:
+
+cd /home/seusuario/Downloads
+Em seguida, liste as pastas para saber o nome do pacote baixado:
+
+
+ls
+Agora que já sabe o nome do pacote, vamos então extrair:
+
+tar -xJf NomeDoPacote.tar.xz
+Agora vamos para a instalação do programa, se preferir vá no diretório descompactado e configura se possui o arquivo configure ou um aquivo install.sh.
+
+Após verificar escolha uma das opções e prossiga!
+Agora vamos entrar no diretório onde estão os arquivos:
+
+cd /home/seuusuario/Donwloads/pacote
+Agora se você entrou no diretório e viu que tem um configure você deve executar o comando abaixo:
+
+./configure
+make
+sudo make install
+Se você achou um arquivo install.sh você deve executar o seguinte:
+
+sudo sh install.sh
+Nesta segunda opção você deve apenar aguardar a instalação ser concluída.
