@@ -1,8 +1,19 @@
-title, subtitle,post_title {
+body{
+    background: gray;
+}
+
+#title,.subtitle,.post_title{
     color:blue
 }
  
-post_title {
+.post_title{
     font-size: 16px;
     font-style: italic;
+}
+
+.post{
+    background: white;
+    padding: 15px 8px 10px 20px;
+    border: 3px solid black;
+    margin: 15px ;
 }
